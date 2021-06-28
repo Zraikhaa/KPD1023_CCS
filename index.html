@@ -1,19 +1,64 @@
 <html>
-   <head>
-     <title>CSS Pertama</title>
-     <style>
-         p {
-             color:red;
-             background=colour:tan; 
-         }
-     </style>
-   </head>
+  <head>
+    <title>Latihan CSS 1</title>
+    <style>
+      .ini_ialah_body {
+        background-color: yellowgreen;
+      }
+      .header {
+        text-align: center;
+        font-size: 50;
+        font-style: italic;
+      }
+      table {
+        border-style: dotted;
+        border-width: 5;
+        width: 80%;
+      }
+      .table2 {
+        border-width: 2;
+        width: 40%;
+      }
+      .table2:hover {
+        background-color: wheat;
+      }
+      td {
+        border-style: solid;
+      }
 
-   <body>
-     <p>Ini aturcara css pertama saya menggunakan element selector</p>
+    </style>
+  </head>
+  
+  <body class="ini_ialah_body">
+    <center>
+    
+    <table>
+    <tr>
+      <td class="header">Latihan CSS 1</td>
+    </tr>
+    </table>
+      
+      <br><br>
+      <table class="table2">
+        <tr>
+          <td>Nama :</td>
+          <td>Nur Faris Diyana Binti Kamarudin</td>
+        </tr>
+        <tr>
+          <td>Cita-cita :</td>
+          <td>Psychologist</td>
+        </tr>
+        <tr>
+          <td>Hobi :</td>
+          <td>Menonton filem</td>
+        </tr>
+        <tr>
+          <td>Asal</td>
+          <td>Johor</td>
+        </tr>
+      </table>
+      
+    </center>
+  </body>
 
-   </body>
-
-
-
- </html>
+</html>
